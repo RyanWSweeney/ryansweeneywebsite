@@ -1,0 +1,240 @@
+.headshot{
+    height:auto;
+    width: 35rem;
+    position: relative;
+}
+
+.layout{
+    padding: 4rem 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.layout-h1{
+    font-weight: bold;
+    font-size:4rem;
+    position: relative;
+    color:#242424;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.layout-h1-light{
+    font-size:4rem;
+    position: relative;
+    color:#FFF;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.layout-h2{
+    font-weight: bold;
+    font-size:2rem;
+    position: relative;
+    color:#242424;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.layout-h2-light{
+    font-weight: bold;
+    font-size:2rem;
+    position: relative;
+    color:#FFF;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.layout-h3{
+    font-size:1.5rem;
+    position: relative;
+    color:#242424;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+}
+
+.layout-h3-light{
+    font-size:1.5rem;
+    position: relative;
+    color:#FFF;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+}
+
+.layout-h4{
+    font-size:16px;
+    position: relative;
+    color:#242424;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+}
+
+.layout-h4-light{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+    font-size:16px;
+    position: relative;
+    color:#FFF;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+}
+
+.layout-h5{
+    font-size:2rem;
+    position: absolute;
+    left: 30.5rem;
+    color:#242424;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.layout-h5-color{
+    font-weight: bold;
+    font-size:1.25rem;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    color:#4ABDAC;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 15rem;
+}
+
+
+.text-field{
+    padding: 2rem 2rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35rem;
+    justify-content: center;
+}
+
+.text-field-2{
+    padding: 4rem 0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    right: 16.5rem;
+    width: 35rem;
+    justify-content: center;
+}
+
+.text-field-3{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    right: 16.25rem;
+    width: 35rem;
+    justify-content: center;
+}
+
+.text-field-4{
+    position: relative;
+    left: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35rem;
+    justify-content: center;
+}
+
+.child{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.child-2{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.layout-colorful{
+    background-color: #4ABDAC;
+    height: auto;
+    width: 100vw;
+    position: relative;
+}
+
+.layout-3{
+    margin-top: 4rem;
+    background-color: #FFF;
+    height: auto;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+}
+
+.button {
+    #text-decoration: none;
+    font-size:1.5rem;
+    position: relative;
+    right: 10rem;
+    top: 1rem;
+    color:#fff;
+    display: inline-block;
+    justify-content: left;
+    padding: .5rem 2rem .5rem 2rem;
+    background-color: #4ABDAC;
+}
+
+.button-2 {
+    #text-decoration: none;
+    font-size:1.5rem;
+    position: relative;
+    left: 0;
+    top: 1rem;
+    color:#242424;
+    display: inline-block;
+    justify-content: left;
+    padding: .5rem 2rem .5rem 2rem;
+    background-color: #FFF;
+}
+
+.vertical-spacer{
+    height: auto;
+    width: 10vw;
+    position: relative;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    outline: none;
+}
+a:focus {
+    outline: none;
+}

@@ -1,18 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from "./components/NavBar";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import React from "react";
-import {Button} from "./components/Button";
+import Home from "./components/pages/Home";
+import CustomComputers from "./components/pages/CustomComputers";
+import Projects from "./components/pages/Projects";
 
 function App() {
   return (
         <Router>
             <NavBar/>
-            <h1>This page is under construction</h1>
-            <img src={logo} className="App-logo" alt="logo" />
             <Routes>
-                <Route path="/" exact/>}/>
+                <Route exact path="/" element={<Home/>}/>}/>
+                <Route exact path="/custom-computers" element={<CustomComputers/>}/>
+                <Route exact path="/projects" element={<Projects/>}/>
             </Routes>
         </Router>
 
