@@ -1,0 +1,28 @@
+.footer-link-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+}
+.footer-link-items{
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.linked-in{
+    margin: 1rem 1rem;
+    color: #242424;
+}
+
+.github{
+    margin: 1rem 1rem;
+    color: #242424;
+}

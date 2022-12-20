@@ -1,9 +1,7 @@
 import React, {useState} from 'react';
-import {faTypo3} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Link} from "react-router-dom";
 import {faBars, faTimes} from "@fortawesome/free-solid-svg-icons";
-import {Button} from "./Button";
 import './NavBar.css';
 
 function NavBar() {

@@ -1,5 +1,6 @@
 import './App.css';
 import NavBar from "./components/NavBar";
+import Footer from "./components/footer";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from "./components/pages/Home";
 import CustomComputers from "./components/pages/CustomComputers";
@@ -14,6 +15,7 @@ function App() {
                 <Route exact path="/custom-computers" element={<CustomComputers/>}/>
                 <Route exact path="/projects" element={<Projects/>}/>
             </Routes>
+            <Footer/>
         </Router>
 
   );
