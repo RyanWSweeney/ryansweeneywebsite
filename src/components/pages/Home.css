@@ -1,8 +1,10 @@
 .headshot{
     height:auto;
-    padding: 2rem 0;
     width: 25rem;
+    max-width: 100%;
     position: relative;
+    margin-top: 2rem;
+    padding-right: 2rem;
 }
 
 .home-container{
@@ -18,7 +20,8 @@
 }
 
 .home-layout{
-    margin: 0 20vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
     width: 80vw;
     text-align: start;
 }
@@ -28,12 +31,13 @@
     flex-direction: row;
     background-color: #4ABDAC;
     width: 100vw;
-    height: 30rem;
+    height: auto;
     position: relative;
     right: 20vw;
     justify-content: left;
     align-items: start;
     align-content: start;
+    padding-bottom: 2rem;
 }
 
 .introduction{
@@ -56,13 +60,15 @@
     margin-left: auto;
     margin-right: auto;
     justify-content: left;
+    max-width: 100%;
 }
 
 .text-field-2{
-    padding: 4rem 0;
     position: relative;
     margin: 0 20vw;
     justify-content: left;
+    padding-right: 2rem;
+    padding-top: 4rem;
 }
 
 .text-h1{
@@ -73,6 +79,7 @@
     display: flex;
     justify-content: left;
     align-items: start;
+    max-width: 100%;
 }
 
 .text-h2{
@@ -114,6 +121,7 @@
     text-align: left;
     align-items: start;
     max-width: 40rem;
+    padding-right: 2rem;
 }
 
 .text-h4-light{
@@ -189,4 +197,28 @@ a:hover {
 }
 a:focus {
     outline: none;
+}
+
+@media (max-width: 992px) {
+    .text-h1 {
+        font-size: 3rem !important;
+    }
+    .text-h2 {
+        font-size: 2rem !important;
+    }
+    .text-h3 {
+        font-size: 1.25rem !important;
+    }
+    .text-h4 {
+        font-size: .8rem !important;
+    }
+    .text-h5-color {
+        font-size: 1rem !important;
+    }
+    .button {
+        font-size: 90% !important;
+    }
+    .button-2 {
+        font-size: 90% !important;
+    }
 }
