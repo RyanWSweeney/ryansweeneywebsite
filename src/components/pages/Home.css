@@ -210,6 +210,14 @@
     padding-top: 4rem;
 }
 
+.organizations-section{
+    position: relative;
+    margin: 0 20vw;
+    justify-content: left;
+    padding-right: 2rem;
+    padding-top: 4rem;
+}
+
 a {
     text-decoration: none;
     outline: none;
