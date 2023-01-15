@@ -37,7 +37,7 @@ function Home(){
                     </div>
                     <div className="skills-section">
                         <div className="text-field-3">
-                            <text className="text-h2">My Skills</text>
+                            <text className="text-h2">Programming Skills</text>
                         </div>
                         <div className="row">
                             <div className="column">
@@ -64,6 +64,43 @@ function Home(){
                                 <div className="text-field-4">
                                     <text className={"text-h5-color"}>A Natural Leader</text>
                                     <text className={"text-h4"}>Through leading various projects in the past such as my Eagle Scout service project, and being team captain of cross country, I have developed many useful leadership skills that make me the perfect project leader.</text>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="layout-colorful-2">
+                        <div className="hardware-skills-section">
+                        <div className="text-field-3">
+                            <text className="text-h2">Hardware Skills</text>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="organizations-section">
+                        <div className="text-field-3">
+                            <text className="text-h2">Organizations</text>
+                        </div>
+
+                    </div>
+                    <div className="interests-section">
+                        <div className="text-field-3">
+                            <text className="text-h2">Interests</text>
+                        </div>
+                    </div>
+                    <div className="awards-section">
+                        <div className="text-field-3">
+                            <text className="text-h2">Awards</text>
+                        </div>
+                        <div className="row">
+                            <div className="column">
+                                <div className="text-field-4">
+                                    <text className={"text-h5-color"}>Coding Proficiencies</text>
+                                    <text className={"text-h4"}>Proficient in Java, C++, Python, JavaScript, HTML, C#, PHP, Matlab, R</text>
+                                </div>
+                            </div>
+                            <div className="column">
+                                <div className="text-field-4">
+                                    <text className={"text-h5-color"}>Computer Proficiencies</text>
+                                    <text className={"text-h4"}>Proficient in Microsoft Office, Onshape, AutoCAD, Adobe Photoshop, Adobe Illustrator, QGIS, Unity, Matlab</text>
                                 </div>
                             </div>
                         </div>
