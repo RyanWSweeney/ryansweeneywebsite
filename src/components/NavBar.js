@@ -41,11 +41,7 @@ function NavBar() {
                             Custom Computers
                         </Link>
                     </li>
-                    <li className="nav-item">
-                        <Link to="/projects" className="nav-links" onClick={closeMenu}>
-                            Projects
-                        </Link>
-                    </li>
+
                 </ul>
                 </div>
         </nav>

@@ -9,6 +9,17 @@
     z-index: 1;
 }
 
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+}
+
 .header-text{
     font-size: 2.4rem;
     font-weight: bold;
@@ -72,14 +83,18 @@
 }
 
 @media screen and (max-width: 768px) {
-    .computer-image{
-        width: 80vw;
+    .computer-img{
+        width: 100%;
     }
     .image{
         width: 80vw;
         height: auto;
     }
     .images{
+        width: 80vw;
+        height: auto;
+    }
+    .body-text{
         width: 80vw;
         height: auto;
     }

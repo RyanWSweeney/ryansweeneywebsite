@@ -15,7 +15,7 @@ function Footer() {
                                 <a className = "github" href={"https://github.com/RyanWSweeney"} target = "_blank">
                                 <FontAwesomeIcon icon={faGithub} />
                                 </a>
-                                <a className="linked-in" href={"https://www.linkedin.com/in/ryan-sweeney-4185a824b/"} target="_blank">
+                                <a className="linked-in" href={"https://www.linkedin.com/in/ryanwsweeney/"} target="_blank">
                                 <FontAwesomeIcon icon={faLinkedinIn} />
                                 </a>
                             </div>

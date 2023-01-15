@@ -37,7 +37,8 @@
     justify-content: left;
     align-items: start;
     align-content: start;
-    padding-bottom: 2rem;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .layout-colorful-2{
@@ -51,7 +52,6 @@
     justify-content: left;
     align-items: start;
     align-content: start;
-    padding-bottom: 2rem;
 }
 
 .introduction{
@@ -82,7 +82,6 @@
     margin: 0 20vw;
     justify-content: left;
     padding-right: 2rem;
-    padding-top: 4rem;
 }
 
 .text-h1{
@@ -162,7 +161,7 @@
     display: flex;
     justify-content: left;
     align-items: start;
-    width: 15vw;
+    width: 100%;
 }
 
 .button {
@@ -197,8 +196,8 @@
 }
 
 .skills-section{
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     color: #242424;
 }
 
@@ -208,6 +207,29 @@
     justify-content: left;
     padding-right: 2rem;
     padding-top: 4rem;
+}
+
+.organizations-section{
+    position: relative;
+    margin: 0 20vw;
+    justify-content: left;
+    padding-right: 2rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.interests-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.awards-section{
+    position: relative;
+    margin: 0 20vw;
+    justify-content: left;
+    padding-right: 2rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 a {
@@ -250,10 +272,19 @@ a:focus {
     .layout-colorful{
         right: 10vw;
     }
+    .layout-colorful-2{
+        right: 10vw;
+    }
     .headshot{
         margin-right: 4rem;
     }
     .text-field-2{
+        margin: 0 10vw;
+    }
+    .organizations-section{
+        margin: 0 10vw;
+    }
+    .awards-section{
         margin: 0 10vw;
     }
 

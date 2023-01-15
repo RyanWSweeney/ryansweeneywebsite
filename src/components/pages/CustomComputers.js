@@ -1,13 +1,14 @@
 import React from 'react';
 import '../../App.css';
 import './CustomComputers.css';
-import'../contactForm.js';
+import'../ContactForm.js';
 import computer1 from '../../computer1.png';
 import computer2 from '../../computer2.png';
 import computer3 from '../../computer3.png';
-import ContactForm from "../contactForm";
+import ContactForm from "../ContactForm";
 
 function CustomComputers(){
+    const [button, setButton] = React.useState(true);
     return (
         <>
             <div className="container">
@@ -16,7 +17,7 @@ function CustomComputers(){
                 </div>
                 <div className="body">
                     <div className="body-text">
-                        <text className="body-text">In today's world everyone needs a computer, whether for work, video games, or anything in between. Manufacturers mark-up prices, and often times building a computer is cheaper for the consumer, but this requires technical skills. My quotes are cheaper than most manufacturers, and offer a level of customization no pre-built computer offers (small form factor, custom lighting, custom cooling, out of box overclocking etc.). Request a quote below and I will get back to you as soon as possible!</text>
+                        <text className="body-text">In today's tech-driven world, having a computer is essential for work, gaming, or anything else. Sadly, most manufacturers price-gouge their products. Building a computer yourself is often cheaper, but requires technical knowledge. That's why I'm here; my quotes are lower than most, and I offer levels of customization that pre-built computers can't match, like custom lighting and cooling, out of box overclocking, and small form factor builds! Request a quote today, and I'll respond as soon as I can!</text>
                     </div>
                 </div>
                 <div className="images">
@@ -33,9 +34,7 @@ function CustomComputers(){
                         <text className="image-text">Small form factor PC that fits inside a carry-on for easy travel</text>
                     </div>
                 </div>
-                <div className="form">
-                    <ContactForm />
-                </div>
+                 <ContactForm/>
             </div>
         </>
     );
