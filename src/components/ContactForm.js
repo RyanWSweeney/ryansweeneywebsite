@@ -38,7 +38,7 @@ const ContactForm = () => {
 
     return (
         <Grid>
-            <Paper elevation={10} style={{padding: '20px', width: '500px', margin: '20px auto'}}>
+            <Paper elevation={10} style={{padding: '20px', width: '300px', margin: '20px auto'}}>
                 <h1>Contact Form</h1>
                 <Grid container direction='column' >
                     <form ref={form} onSubmit={handleSubmit}>
